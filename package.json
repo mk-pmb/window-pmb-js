@@ -1,5 +1,5 @@
 { "name": "window-pmb",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "(running_in_a_browser ? window : fake_stub)",
   "keywords": [ "browser", "window" ],
 

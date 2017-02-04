@@ -5,12 +5,12 @@
 
 (function readmeDemo() {
   //#u
-  var win = require('window-pmb'), equal = require('equal-pmb'), doc;
+  var win = require('window-pmb'), doc = win.document,
+    equal = require('assert').deepStrictEqual;
 
   equal(win, win.window);
   equal(win, win.self);
 
-  doc = win.document;
   equal('function', typeof doc.createElement);
   equal('function', typeof doc.getElementById);
   equal('function', typeof doc.getElementsByTagName);
